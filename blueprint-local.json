@@ -3,6 +3,6 @@
   "landingPage": "/",
   "steps": [
     { "step": "activateTheme", "themeFolderName": "ironwood" },
-    { "step": "setSiteOptions", "options": { "blogname": "Ironwood Construction", "blogdescription": "Built right. Built for what’s next." } }
+    { "step": "setSiteOptions", "options": { "blogname": "Ironwood Construction", "blogdescription": "Residential and commercial construction." } }
   ]
 }

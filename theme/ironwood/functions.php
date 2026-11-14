@@ -21,7 +21,7 @@ add_action( 'init', function () {
 
 add_action( 'wp_head', function () {
     if ( is_front_page() ) {
-        echo '<meta name="description" content="Ironwood Construction — a construction website concept by Saber Tech. Explore residential builds, commercial spaces, and thoughtful renovations.">' . "\n";
+        echo '<meta name="description" content="Ironwood Construction. Residential construction, commercial spaces, and renovations.">' . "\n";
     }
 } );
 
