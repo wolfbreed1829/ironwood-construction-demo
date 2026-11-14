@@ -1,0 +1,8 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "steps": [
+    { "step": "activateTheme", "themeFolderName": "ironwood" },
+    { "step": "setSiteOptions", "options": { "blogname": "Ironwood Construction", "blogdescription": "Built right. Built for what’s next." } }
+  ]
+}

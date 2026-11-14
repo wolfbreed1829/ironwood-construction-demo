@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": { "contentSize": "1280px", "wideSize": "1440px" },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "paper", "name": "Warm white", "color": "#f6f5f0" },
+        { "slug": "ink", "name": "Charcoal", "color": "#20251f" },
+        { "slug": "orange", "name": "Safety orange", "color": "#b83b16" },
+        { "slug": "white", "name": "White", "color": "#ffffff" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "slug": "body", "name": "Manrope", "fontFamily": "Manrope, sans-serif" },
+        { "slug": "display", "name": "Barlow Condensed", "fontFamily": "'Barlow Condensed', Impact, sans-serif" }
+      ]
+    },
+    "spacing": { "units": ["px", "rem", "%", "vw"] }
+  },
+  "styles": {
+    "color": { "background": "#f6f5f0", "text": "#20251f" },
+    "typography": { "fontFamily": "var:preset|font-family|body" },
+    "spacing": { "blockGap": "0" },
+    "elements": {
+      "heading": { "typography": { "fontFamily": "var:preset|font-family|display", "fontWeight": "700" } },
+      "link": { "color": { "text": "inherit" } }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ]
+}
+

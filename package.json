@@ -1,0 +1,13 @@
+{
+  "name": "ironwood-construction-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Native WordPress block theme and matching GitHub Pages construction demo.",
+  "scripts": {
+    "build": "node scripts/build.mjs && python scripts/package-theme.py",
+    "wordpress": "npx --yes @wp-playground/cli@3.1.64 server --mount-dir ./theme/ironwood /wordpress/wp-content/themes/ironwood --blueprint blueprint-local.json --port 9400 --workers 1"
+  },
+  "author": "Saber Tech Inc.",
+  "license": "GPL-2.0-or-later",
+  "type": "module"
+}
