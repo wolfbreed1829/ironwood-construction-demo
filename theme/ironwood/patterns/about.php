@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 <!-- wp:group {"tagName":"section","anchor":"about","className":"about section-pad container"} -->
 <section id="about" class="wp-block-group about section-pad container"><!-- wp:group {"tagName":"div","className":"about-visual"} -->
 <div class="wp-block-group about-visual"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"about-image"} -->
-<figure class="wp-block-image size-full about-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/' ) ); ?>detail.jpg" alt="Carefully finished living space with timber stairs, light upholstery, and crafted details" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full about-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/' ) ); ?>detail.jpg" alt="Carefully finished living space with timber stairs, light upholstery, and crafted details"/></figure>
 <!-- /wp:image --><!-- wp:html -->
 <div class="craft-stamp"><span>THE DETAILS<br>MAKE THE<br>DIFFERENCE.</span><span aria-hidden="true">↗</span></div>
 <!-- /wp:html --></div>

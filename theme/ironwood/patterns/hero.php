@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"tagName":"div","className":"hero-visual"} -->
 <div class="wp-block-group hero-visual"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hero-image"} -->
-<figure class="wp-block-image size-full hero-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/' ) ); ?>hero.jpg" alt="Contemporary home with warm timber cladding, expansive windows, and a landscaped entry" fetchpriority="high" decoding="async"/></figure>
+<figure class="wp-block-image size-full hero-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/' ) ); ?>hero.jpg" alt="Contemporary home with warm timber cladding, expansive windows, and a landscaped entry"/></figure>
 <!-- /wp:image --><!-- wp:html -->
 <div class="image-corner" aria-hidden="true"></div>
 <!-- /wp:html --><!-- wp:group {"tagName":"div","className":"hero-caption"} -->

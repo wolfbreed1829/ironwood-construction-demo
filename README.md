@@ -48,3 +48,7 @@ Photographs are downloaded from Unsplash and stored locally. Source IDs and down
 ## Publishing
 
 GitHub Pages publishes the `docs/` directory of `main`. A push that changes `docs/` updates the demo. Rebuild and package the theme before pushing so the preview, WordPress theme, and ZIP remain synchronized.
+
+## Verification
+
+The static demo was browser-checked at 320, 390, 768, 1024, and 1440 pixel widths. Project filters, project dialogs, Escape dismissal, mobile navigation, FAQ disclosure, image loading, and the 12 exact Saber Tech links passed. GitHub Pages deployment and the live HTTP response were verified. Live WordPress activation could not be verified in this environment: the local Playground download stalled and the hosted Playground reported worker-loading errors followed by a browser access check. The Playground link is provided as an optional environment for independent theme review.
